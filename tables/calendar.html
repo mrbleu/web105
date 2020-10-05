@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calendar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+                table, td {
+                    border: 1px solid black;
+                    background-color: cornflowerblue;
+                    padding: 5px;
+                    border-collapse: collapse;
+                }
+
+                th {
+                    border-left: 1px solid black;
+                    background:tomato;
+                    padding: 5px;
+                    color: black;
+                }
+                td{
+                    text-align: right;
+                    height: 50px;
+                    vertical-align: top;
+                }
+
+                table {
+                    margin: 20px auto;
+                    width: 90%;
+                    
+                }
+                .not_month {
+                    color: grey;
+                }
+                .weekend {
+                    background-color: lightgreen;
+                }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Calendar</h1>
+            <nav>
+                <a href="index.html">Table Basics</a>
+                <a href="styling-tables.html">Styling Tables</a>
+                <a href="calendar.html">Calendar</a>
+            </nav>
+            <h2>January 2020</h2>
+            <table>
+                <tr>
+                    <th>Sunday</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                </tr>
+                <tr>
+                    <td class="not_month weekend">29</td>
+                    <td class="not_month">30</td>
+                    <td class="not_month">31</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td class="weekend">4</td>
+                </tr>
+                <tr>
+                    <td class="weekend">5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td class="weekend">11</td>
+                </tr>
+                <tr>
+                    <td class="weekend">12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td class="weekend">18</td>
+                </tr>
+                <tr>
+                    <td class="weekend">19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td class="weekend">25</td>
+                </tr>
+                <tr>
+                    <td class="weekend">26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td class="weekend not_month">1</td>
+                </tr>
+            </table>
+        </div>
+        
+    </body>
+</html>

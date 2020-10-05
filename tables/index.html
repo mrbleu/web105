@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tables</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            table, th, td {
+            border: 1px solid black;
+        }
+
+        table {
+            margin: 20px auto;
+            width: 80%;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Table Basics</h1>
+            <nav>
+                <a href="index.html">Table Basics</a>
+                <a href="styling-tables.html">Styling Tables</a>
+                <a href="calendar.html">Calendar</a>
+            </nav>
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Col 1</th>
+                    <th>Col 2</th>
+                    <th>Col 3</th>
+                    <th>Col 4</th>
+                </tr>
+                <tr>
+                    <th>Row 1</th>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Row 2</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Row 3</th>
+                    <td></td>
+                    <td></td>
+                    <td rowspan="2"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Row 4</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Row 5</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        
+    </body>
+</html>

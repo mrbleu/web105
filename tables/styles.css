@@ -1,0 +1,37 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    border-style: double;
+    font-size: large;
+    padding: 10px;
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+
+}
+nav {
+    text-align: center;
+    display: block;
+    padding: 10px 10px;
+}
+nav a {
+    background-color: aquamarine;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    border: 2px solid white;
+    border-radius: 5px;
+    
+    color: black;
+}
+nav a:hover {
+    border: 2px solid black;
+}
+nav a:visited {
+    color: black;
+}
+h2{
+    text-align: center;
+}
